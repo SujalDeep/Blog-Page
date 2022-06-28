@@ -1,0 +1,35 @@
+<script src="https://kit.fontawesome.com/340a91960b.js" crossorigin="anonymous"></script>
+<%- include("partials/header"); -%>
+    <div class="container" style="height: 740px;">
+        <div class="div_span" style="font-size: 6.5rem;">
+            <span class="my_span">
+                CONTACT
+            </span>
+        </div>
+        <div class="div_s_span" style="font-size: 4.5rem; margin-bottom: 10px;">
+            <span class="s_span">
+                CONTACT
+            </span>
+        </div>
+       
+        <p style="font-size: 1.8rem; margin-top: 20px;"> <%= contactContent %> </p>
+        <div class="row contact_h">
+            <div class="col" style="text-align: center; margin-top: 30px; position: relative;">
+                <h2 class="line" style="font-weight: 100;">SOCIAL MEDIA LINKS</h2>
+                <div class="underline" style="background-color: #c0392b; width: 200px;">
+
+                </div>
+            <div class="col" style="padding-top: 50px;">
+                <%- include("partials/social" , {link : "facebook-square" , vart : "https://www.facebook.com/aditesh.upadhyay/"}); -%>
+                <%- include("partials/social" , {link : "instagram-square" , vart : "https://www.facebook.com/aditesh.upadhyay/"}); -%>
+                <%- include("partials/social" , {link : "twitter-square" , vart : "https://www.facebook.com/aditesh.upadhyay/"}); -%>
+                <%- include("partials/social" , {link : "linkedin" , vart : "https://www.facebook.com/aditesh.upadhyay/"}); -%>
+                <span style="color: rgb(26,188,156);">
+                    <a href="mailto: aditeshu@gmail.com" target="_blank" rel="noopener noreferrer" style="color : crimson;"><i class="far fa-envelope marg fa-3x"></i></a>
+                </span>
+                <%- include("partials/social" , {link : "github" , vart : "https://www.facebook.com/aditesh.upadhyay/"}); -%>
+            </div>
+            </div>
+        </div>
+    </div>
+<%- include("partials/footer"); -%>
